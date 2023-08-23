@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/llog.css">
+</head>
+<body>
+    <div id="css_group">
+    <h2  id="clock">00:00:00</h2>
+    <form  class="hidden" id="login_form" >
+        <input required maxlength="15" type="text" placeholder="what is your name?">
+        <input type="submit" value="log in">
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <form  id="todo_form">
+        <input type="text" placeholder="wirte a To Do and Press Enter" required>
+    </form>
+    <ul  id="todo_list"></ul>
+    <div  id="quote"> 
+        <span></span>
+        <span></span>
+    </div>
+    </div>
+    <div id="slide">
+        <div id="weather">
+            <span></span>
+        </div>
+        <div id="city">
+            <span></span>
+        </div>
+    </div>
+    
+    <script src="../js/clock.js"></script>
+    <script src="../js/log.js"></script> 
+    <script src="../js/quots.js"></script>
+    <script src="../js/background.js"></script>
+    <script src="../js/todo.js"></script>
+    <script src="../js/wheather.js"></script>
+</body>
+</html>
